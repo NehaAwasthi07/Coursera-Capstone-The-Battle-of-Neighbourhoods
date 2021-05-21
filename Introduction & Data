@@ -1,0 +1,31 @@
+Introduction:
+
+Mumbai is the capital city of the Indian state of Maharashtra. It is the second-most populous city in the country after Delhi and the seventh-most populous city in the world with a population of roughly 20 million. It has the highest number of millionaires and billionaires among all cities in India and the eighth-highest number of billionaires of any city in the world. Mumbai is the financial, commercial, and the entertainment capital of India. It is also one of the world's top ten centres of commerce in terms of global financial flow. The city houses important financial institutions and the corporate headquarters of numerous Indian companies and multinational corporations. It is also home to some of India's premier scientific and nuclear institutes. The city is also home to Bollywood and Marathi cinema industries. Mumbai's business opportunities attract migrants from all over India.
+
+Business problem: Using the data sources mentioned in the data section, we are going to explore and analyse neighbourhoods in Mumbai to decide the best location for Italian cuisine in the city. In the process, we will explore areas populated with restaurants, areas with a large number of Italian restaurants, areas having less number of restaurants, areas with the best rated Italian restaurants, neighbourhoods with the best restaurants in Mumbai, the best neighbourhood to stay if you prefer Italian Cuisine.
+
+Data:
+
+For this project we will get data from the following datasets:
+
+Mumbai Restaurants data that contains localities, restaurant names, restaurant rating along with their latitudes and longitudes:
+
+Data source : Zomato kaggel dataset ("https://www.kaggle.com/shrutimehta/zomato-restaurants-data")
+
+Data description : This dataset provides information about the cuisines of the countries and localities of said countries serveing a given cuisine with maximum number of restaurants.
+
+This dataset contains the information we need for analysis and we will use it to explore various localities of Mumbai.
+
+Venues near each neighbourhood of Mumbai:
+
+Data source : Foursquare API ( "https://developer.foursquare.com/")
+
+Description : This Dataset will provide us with the location based data we need to explore neighbourhoods in Mumbai.By using this api, we will get the relevant venues in each neighborhood in Mumbai.
+
+Strategy for problem solving:
+
+We will collect the Mumbai city data from Zomato kaggel dataset
+We will find the venues for each neighborhood using FourSquare API
+We will group the venues by nearby localities
+we will find the best places to eat based on the basis of aggregate rating.
+Using folium library, we will visualise the results.
