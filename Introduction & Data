@@ -9,21 +9,15 @@ Data:
 For this project we will get data from the following datasets:
 
 Mumbai Restaurants data that contains localities, restaurant names, restaurant rating along with their latitudes and longitudes:
-
 Data source : Zomato kaggel dataset ("https://www.kaggle.com/shrutimehta/zomato-restaurants-data")
-
 Data description : This dataset provides information about the cuisines of the countries and localities of said countries serveing a given cuisine with maximum number of restaurants.
-
 This dataset contains the information we need for analysis and we will use it to explore various localities of Mumbai.
 
 Venues near each neighbourhood of Mumbai:
-
 Data source : Foursquare API ( "https://developer.foursquare.com/")
-
 Description : This Dataset will provide us with the location based data we need to explore neighbourhoods in Mumbai.By using this api, we will get the relevant venues in each neighborhood in Mumbai.
 
 Strategy for problem solving:
-
 We will collect the Mumbai city data from Zomato kaggel dataset
 We will find the venues for each neighborhood using FourSquare API
 We will group the venues by nearby localities
